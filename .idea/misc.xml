@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Androidproject/ShopApp/app/src/main/res/drawable/add_24.xml" value="0.11986970684039087" />
+        <entry key="..\:/Androidproject/ShopApp/app/src/main/res/drawable/align.xml" value="0.11986970684039087" />
+        <entry key="..\:/Androidproject/ShopApp/app/src/main/res/drawable/bg_edittext.xml" value="0.18703703703703703" />
+        <entry key="..\:/Androidproject/ShopApp/app/src/main/res/drawable/bg_indicator.xml" value="0.19166666666666668" />
+        <entry key="..\:/Androidproject/ShopApp/app/src/main/res/drawable/btnadd.xml" value="0.18703703703703703" />
+        <entry key="..\:/Androidproject/ShopApp/app/src/main/res/drawable/envelope_24.xml" value="0.11986970684039087" />
+        <entry key="..\:/Androidproject/ShopApp/app/src/main/res/drawable/ic_shopping_cart.xml" value="0.11986970684039087" />
+        <entry key="..\:/Androidproject/ShopApp/app/src/main/res/drawable/shopping-cart.xml" value="0.11986970684039087" />
+        <entry key="..\:/Androidproject/ShopApp/app/src/main/res/drawable/shopping.xml" value="0.11986970684039087" />
+        <entry key="..\:/Androidproject/ShopApp/app/src/main/res/layout/activity_dangky.xml" value="0.10075136612021858" />
+        <entry key="..\:/Androidproject/ShopApp/app/src/main/res/layout/activity_gio_hang.xml" value="0.22" />
+        <entry key="..\:/Androidproject/ShopApp/app/src/main/res/layout/activity_login.xml" value="0.12" />
+        <entry key="..\:/Androidproject/ShopApp/app/src/main/res/layout/activity_main.xml" value="0.13333333333333333" />
+        <entry key="..\:/Androidproject/ShopApp/app/src/main/res/layout/activity_main2.xml" value="0.13333333333333333" />
+        <entry key="..\:/Androidproject/ShopApp/app/src/main/res/layout/activity_san_pham.xml" value="0.15715579710144928" />
+        <entry key="..\:/Androidproject/ShopApp/app/src/main/res/layout/giohang_item.xml" value="0.14666666666666667" />
+        <entry key="..\:/Androidproject/ShopApp/app/src/main/res/layout/item_danh_muc.xml" value="0.3333333333333333" />
+        <entry key="..\:/Androidproject/ShopApp/app/src/main/res/layout/item_photo.xml" value="0.1" />
+        <entry key="..\:/Androidproject/ShopApp/app/src/main/res/layout/itemsanpham.xml" value="0.16666666666666666" />
+        <entry key="..\:/Androidproject/ShopApp/app/src/main/res/menu/search.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFBFB"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/anh1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/iphone" />
+            <TextView
+                android:id="@+id/tv_ten1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/anh1"
+                android:layout_marginLeft="20dp"
+                android:text="Tên"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_gias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_ten1"
+                android:layout_marginLeft="20dp"
+                android:text="Giá : "
+                android:textColor="#F44336" />
+
+            <TextView
+                android:id="@+id/tv_gia1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_ten1"
+                android:layout_marginLeft="60dp"
+                android:text="Gia"
+                android:textColor="#F44336" />
+
+            <TextView
+                android:id="@+id/tv_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_gia1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:text="Chi tiết sản phẩm:"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_mota1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_view"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="50dp"
+                android:text="Mo ta :" />
+
+            <ProgressBar
+                android:id="@+id/probar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+            <LinearLayout
+                android:layout_width="97dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_gia1"
+                android:layout_alignBottom="@+id/tv_mota1"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="36dp"
+                android:layout_marginBottom="16dp"
+                android:background="#F8F8F8"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/btncong"
+                    android:layout_width="20dp"
+                    android:layout_height="18dp"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@drawable/add_24" />
+
+                <TextView
+                    android:id="@+id/tv_soluong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="1" />
+
+                <ImageView
+                    android:id="@+id/btntru"
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:srcCompat="@drawable/btntru" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnmuangay"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnadd"
+        android:text="Mua ngay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.929" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

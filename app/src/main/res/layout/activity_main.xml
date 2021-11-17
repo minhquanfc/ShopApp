@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/drawerbar"
+            android:src="@drawable/align"
+            android:layout_margin="10dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/giohang"
+            android:src="@drawable/shopping"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp" />
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/viewpager"
+        android:layout_below="@+id/drawerbar" />
+    <me.relex.circleindicator.CircleIndicator
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/circle_indicator"
+        app:ci_drawable="@drawable/bg_indicator"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/viewpager"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_view1"
+        android:text="DANH MỤC"
+        android:layout_below="@id/circle_indicator"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FF5722"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/rcview1"
+        android:layout_below="@+id/tv_view1"
+        android:background="#F8F8F8" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SẢN PHẨM BÁN CHẠY"
+        android:id="@+id/tv_view2"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FF5722"
+        android:layout_below="@id/rcview1"
+        android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_xemthem"
+            android:text="View"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="350dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#FF5722" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_view2"
+            android:layout_marginTop="10dp"
+            android:background="#F8F8F8" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/probar"
+        android:layout_below="@id/circle_indicator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

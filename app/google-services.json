@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "590377942036",
+    "project_id": "shopapp-fdd74",
+    "storage_bucket": "shopapp-fdd74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590377942036:android:b79f88bf90988ca0fd7b01",
+        "android_client_info": {
+          "package_name": "com.poly.shopapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590377942036-26rmjj0b81imohtg16sg0il55t0mbmq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKp_Un_G0IaqtzyEc_qiBN3cZOqwZkteA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590377942036-26rmjj0b81imohtg16sg0il55t0mbmq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
